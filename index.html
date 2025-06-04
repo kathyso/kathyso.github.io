@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Kathy So</title>
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="index.html" class="link">Kathy</a>
+    </h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#experience">Experience</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#education">Education</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1><span class="about__name">Kathy So</span></h1>
+      <h2 class="about__role">Mobile Developer</h2>
+      <p class="about__desc">
+        I am a mobile developer specializing in Swift for iOS apps and Flutter for hybrid apps.
+        Currently I am working on a project with a team of developers to develop and maintain a high
+        traffic e-commerce app for a client.
+      </p>
+
+      <div class="about__contact center">
+        <!-- <a href="">
+          <span class="btn btn--outline">Resume</span>
+        </a> -->
+
+        <a href="https://github.com/kathyso" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/kathy-so-31b9aa139/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>Oct 2024 - Present</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">We-Plus HK Limited</div>
+            <div class="timeline__card-role">Senior iOS Developer</div>
+            <ul>
+              <li>Develop and maintain Native iOS app and SDKs</li>
+              <li>Guide other developers to complete tasks</li>
+              <li>Design and define the architecture</li>
+              <li>Work closely with cross-functional teams and offshore teams to deliver projects</li>
+              <li>Conduct code review to ensure best practices and standards</li>
+              <li>Manage vendor source code</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>Jan 2024 - Mar 2024</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">HKJC</div>
+            <div class="timeline__card-role">Assistant Technical Manager, Application Development</div>
+            <ul>
+              <li>Manage the development and maintenance of React Native and Native mobile applications</li>
+              <li>Manage and lead developers, coaching and assigning tasks, and monitoring progress to ensure project
+                success</li>
+              <li>Provide technical advice and documents for the requirements</li>
+              <li>Collaborate with other departments to ensure the integration of mobile applications with other systems
+                and platforms, ensuring the consistency and quality of the user experience</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>May 2021 - Jan 2024</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">Signify</div>
+            <div class="timeline__card-role">Development Engineer (H16)</div>
+            <ul>
+              <li>Develop and maintain Native and Hybrid smart light mobile applications from scratch</li>
+              <li>Develop custom Flutter packages based on specific business requirements, e.g. NFC tag</li>
+              <li>Design and define the architecture</li>
+              <li>Document the application technical specifications</li>
+              <li>Utilize Agile methodology to manage projects and prioritize tasks</li>
+              <li>Work closely with cross-functional teams to ensure successful delivery of high quality projects
+                on time</li>
+              <li>Provide guidance and support to intern and junior developers, code review to ensure adherence to
+                best practices and standards</li>
+              <li>Manage vendor source code</li>
+              <li>Maintain App Store rate above 4.0 by providing responsive tech support to users</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>Dec 2019 - Apr 2021</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">S.G.D Network Technology Limited</div>
+            <div class="timeline__card-role">Mobile App Developer</div>
+            <ul>
+              <li>Refactor the iOS app architecture from MVC to MVVM with RxSwift</li>
+              <li>Build an internal ERP app from scratch using SwiftUI</li>
+              <li>Act as backend developer to develop RESTful API by using Java when necessary</li>
+              <li>Build a Node.JS chatroom for POC</li>
+              <li>Communicate and work closely with offshore teams to ensure timely delivery projects</li>
+              <li>Contribute to the full mobile application development lifecycle from ideas brainstorming,
+                planning, requirement gathering, development, testing, maintenance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>Dec 2018 - Jul 2019</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">Molecule Financial Limited</div>
+            <div class="timeline__card-role">Software Developer</div>
+            <ul>
+              <li>Develop social media app for iOS</li>
+              <li>Work closely with backend engineer to design and tweak RESTFUL/GraphQL API</li>
+              <li>Contribute to the full mobile application development lifecycle from ideas brainstorming,
+                planning, requirement gathering, development, testing, maintenance and launching on the App
+                store</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__left">
+            <div class="timeline__date"><h5>Jun 2016 - Nov 2018</h5></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__card-title">Green Tomato Limited</div>
+            <div class="timeline__card-role">Developer (iOS)</div>
+            <ul>
+              <li>Collaborate with team members to develop and maintain different mobile apps</li>
+              <li>Demonstrate app to client/product owner when necessary</li>
+              <li>Work with other vendors to develop app when necessary</li>
+              <li>Peer review with teammates</li>
+              <li>Collaborate with PM, PO, Designers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+      <h2 class="section__title">Education</h2>
+      <div class="education__list">
+        <div class="education__item">
+          <div class="education__info">
+            <div class="education__school">Hong Kong Metropolitan University</div>
+            <div class="education__degree">Bachelor of Computing with Honours in Internet Technology</div>
+          </div>
+          <div class="education__date">2013 – 2016</div>
+        </div>
+        <div class="education__item">
+          <div class="education__info">
+            <div class="education__school">Hong Kong Community College</div>
+            <div class="education__degree">Associate in Business: Accounting &amp; Finance</div>
+          </div>
+          <div class="education__date">2011 – 2013</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>WiZ Connected</h3>
+          <p class="project__description">
+            Smart lighting made simple. Organize and control your lights by groups within rooms over
+            Wi-Fi or remotely through the cloud. Improve the way you work, feel and simply enjoy the
+            environment you're in with our wide variety of different light modes that cover the
+            range
+            from fun to functional. All your settings are securely stored on the cloud and can be
+            shared
+            with your family, friends and even your guests if you like.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Flutter</li>
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">Kotlin</li>
+            <li class="project__stack-item">CI/CD</li>
+          </ul>
+
+          <a href="https://apps.apple.com/hk/app/wiz-connected/id1587655962" aria-label="ios" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.wizconnected.wiz2&hl=en" aria-label="android"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-android"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Classic 3-in-1</h3>
+          <p class="project__description">
+            Classic 3-in-1 is an integrated mobile betting app for Racing, Football and Mark Six. It offers
+            comprehensive information and all-round functions, allowing you to enjoy superb digital wagering experience
+            anytime and anywhere.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">React Native</li>
+            <li class="project__stack-item">TypeScript</li>
+          </ul>
+
+          <a href="https://apps.apple.com/hk/app/hkjc-classic-3-in-1/id432462569?l=en-GB" aria-label="ios"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+          <a href="https://m.hkjc.com/en/download-classic-3-in-1.html" aria-label="android" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-android"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>PayMe for Business</h3>
+          <p class="project__description">
+            Do business better by collecting payments quickly and securely with PayMe for Business!
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">VIPER</li>
+          </ul>
+
+          <a href="https://apps.apple.com/hk/app/payme-for-business/id1443510263?l=en-GB" aria-label="ios"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Svaha App-Tsz Shan Audio Guide</h3>
+          <p class="project__description">
+            The Svaha app utilises the Bluetooth Beacon technology for you to experience an audio guided tour in a whole
+            new way with your smartphone in the Monastery.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">Bluetooth</li>
+          </ul>
+
+          <a href="https://apps.apple.com/hk/app/svaha-app-tsz-shan-audio-guide/id1097678871?l=en" aria-label="ios"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>StockViva</h3>
+          <p class="project__description">
+            StockViva is financial key opinion leader ("KOL") platform where users can learn and trade different
+            financial products. We cover HK stocks, US stocks, FX, crypto, warrants, options, bonds and commodities.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">MVVM</li>
+            <li class="project__stack-item">Firebase</li>
+            <li class="project__stack-item">GraphQL</li>
+          </ul>
+
+          <a href="https://stockviva.com/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>e123</h3>
+          <p class="project__description">
+            A social media app for elderly to read news, share lifestyle and redeem rewards from the social welfare
+            organization.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">MVVM</li>
+            <li class="project__stack-item">Firebase</li>
+          </ul>
+
+          <a href="https://apps.apple.com/hk/app/e123-%E9%95%B7%E9%9D%92%E7%B6%B2-%E9%95%B7%E8%80%85%E6%9C%8D%E5%8B%99%E5%8F%8A%E8%80%81%E4%BA%BA%E9%99%A2%E8%B3%87%E8%A8%8A/id1468152611?l=en-GB"
+            aria-label="ios" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>D-Day</h3>
+          <p class="project__description">
+            Do business better by collecting payments quickly and securely with PayMe for Business!
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Swift</li>
+            <li class="project__stack-item">MVVM</li>
+            <li class="project__stack-item">Gitlab workflow</li>
+          </ul>
+
+          <a href="https://apps.apple.com/lv/app/d-day/id1435692878" aria-label="ios" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-app-store-ios"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">Flutter</li>
+        <li class="skills__list-item btn btn--plain">Swift</li>
+        <li class="skills__list-item btn btn--plain">SwiftUI</li>
+        <li class="skills__list-item btn btn--plain">Kotlin</li>
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">Gitlab workflow</li>
+        <li class="skills__list-item btn btn--plain">CI/CD</li>
+        <li class="skills__list-item btn btn--plain">Fastlane</li>
+        <li class="skills__list-item btn btn--plain">Firebase</li>
+        <li class="skills__list-item btn btn--plain">GraphQL</li>
+        <li class="skills__list-item btn btn--plain">RESTful API</li>
+        <li class="skills__list-item btn btn--plain">MVC</li>
+        <li class="skills__list-item btn btn--plain">MVVM</li>
+        <li class="skills__list-item btn btn--plain">VIPER</li>
+        <li class="skills__list-item btn btn--plain">Scrum</li>
+        <li class="skills__list-item btn btn--plain">Jira</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:sokathy46@gmail.com">
+        <span class="btn btn--outline">Email me</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created By Kathy So</p>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
